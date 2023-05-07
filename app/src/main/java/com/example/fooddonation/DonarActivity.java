@@ -100,19 +100,13 @@ public class DonarActivity extends AppCompatActivity {
                 return true;
             }
         });
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(DonarActivity.this, DonarPostActivity.class);
-                startActivity(intent);
-            }
+        fab.setOnClickListener(view -> {
+            Intent intent = new Intent(DonarActivity.this, DonarPostActivity.class);
+            startActivity(intent);
         });
-        fab1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(DonarActivity.this, DonarProfileActivity.class);
-                startActivity(intent);
-            }
+        fab1.setOnClickListener(view -> {
+            Intent intent = new Intent(DonarActivity.this, DonarProfileActivity.class);
+            startActivity(intent);
         });
     }
     public void searchList(String text){
