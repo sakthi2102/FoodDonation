@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodDonation"
+        tools:targetApi="31">
+        <activity
+            android:name=".OrphanageActivity"
+            android:exported="false"
+            android:statusBarColor="@android:color/transparent"/>
+        <activity
+            android:name=".DonarPostActivity"
+            android:exported="false"
+            android:statusBarColor="@android:color/transparent" />
+        <activity
+            android:name=".DonarProfileActivity"
+            android:exported="false"
+            android:statusBarColor="@android:color/transparent" />
+        <activity
+            android:name=".DonarLoginActivity"
+            android:exported="false"
+            android:statusBarColor="@android:color/transparent" />
+        <activity
+            android:name=".DonarSignupActivity"
+            android:exported="false"
+            android:statusBarColor="@android:color/transparent" />
+        <activity
+            android:name=".OrphanageDataActivity"
+            android:exported="false"
+            android:statusBarColor="@android:color/transparent" />
+        <activity
+            android:name=".OrphanageLoginActivity"
+            android:exported="false"
+            android:statusBarColor="@android:color/transparent" />
+        <activity
+            android:name=".OrphanageProfileActivity"
+            android:exported="false"
+            android:statusBarColor="@android:color/transparent" />
+        <activity
+            android:name=".OrphanageSignupActivity"
+            android:exported="false"
+            android:statusBarColor="@android:color/transparent" />
+        <activity
+            android:name=".DonarActivity"
+            android:exported="false"
+            android:statusBarColor="@android:color/transparent" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:statusBarColor="@android:color/transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
