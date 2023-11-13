@@ -59,6 +59,35 @@
             android:digits="0123456789"
             android:inputType="numberDecimal"
             android:hint="Mobile-Number" />
+<!--        <EditText-->
+<!--            android:id="@+id/otpEditText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:maxLength="6"-->
+<!--            android:hint="Enter OTP"-->
+<!--            android:inputType="number"-->
+<!--            android:visibility="invisible" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/sendOTPButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="Send OTP"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:backgroundTint="#4bb6e8" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/verifyOTPButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="Verify OTP"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:backgroundTint="#4bb6e8" />-->
 
         <EditText
             android:id="@+id/et_email"
